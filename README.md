@@ -7,6 +7,9 @@ Olá, esse site foi desenvolvimento como parte do desafio do processo seletivo d
    - Foi utilizado Sass para criar um código limpo e com fácil manutenção, utilizando nesting, variáveis.
  - Media queries
    - Todo o site é responsivo  para smartphones, tablets e desktops.
+ - Javascript
+   - Modal criado com Vanilla JS
+ 
 
 ## Mobile 
 ![mobile](https://github.com/yurimutti/Desafio-Stefanini/blob/master/img/gif-mobile.gif)
