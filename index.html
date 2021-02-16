@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Varal das Águas</title>
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar container">
+            <ul class="nav-menu">
+                <li class="nav-link"><a href="#">Início</a></li>
+                <li class="nav-link"><a href="#concurso">O Concurso</a></li>
+                <li class="nav-link"><a href="#sobre">Sobre</a></li>
+                <li class="nav-link"><a href="#regras">Regras</a></li>
+                <li class="nav-link"><a href="#" id="inscricao">Inscrição</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-inner">
+            <h1>Varal das Águas</h1>
+            <h2>Concurso de fotografia</h2>
+            <div><img src="img/border.png" alt="borda"></div>
+        </div>
+    </section>
+
+    <main class="main container">
+        <div class="concurso" id="concurso">
+            <div class="concurso-texto">
+                <h3 class="subtitulo">O concurso</h3>
+                <p>Concurso de fotografia para todos os técnicos do Inema para exposição de fotos que retratem a temática água (os desafios e as belezas encontradas em campo) pelos colaboradores. Além de uma apresentação cultural com um artista de rua (poesia, musica, cordel) que aborde a temática água. </p>
+            </div>
+            <div class="concurso-inscricao">
+                <div class="concurso-exposicao">
+                    <h3>Exposição de fotos</h3>
+                    <p>20 á 24/03/2017 na divisórias da Ouvidoria (em frente ao elevador)</p>
+                </div>
+                <div class="concurso-apresentacao">
+                    <h3>Apresentação</h3>
+                    <p>20/03/2017 das 16:30h ás 17:30h.</p>
+                </div>
+                    <button class="btn-primary" data-modal="abrir">Faça sua inscrição</button>
+            </div>
+            
+        </div>
+        <div class="sobre" id="sobre">
+            <h3 class="subtitulo">Sobre</h3>
+            <h4>Objetivos</h4>
+            <p>
+                Promover a seleção de 100 fotografias produzidas por colaboradores do Inema em comemoração ao dia da água, que será elaborado um mural de fotos denominado de “Varal das Águas”.
+            </p>
+            <h4>Dos participante</h4>
+            <p>
+                Poderão participar do Concurso Fotográfico 2017: Todos os colaboradores do Instituto do Meio Ambiente e Recursos Hídricos - INEMA e Secretaria do Meio Ambiente -SEMA.
+            </p>
+            <h4>Das especificações das fotografias participantes</h4>
+            <p>
+                As fotografias devem abordar somente o tema OS DESAFIOS E AS BELEZAS RETRATADAS EM CAMPO REFERENTE À SITUAÇÃO HIDRICA, devendo ser obrigatoriamente a foto ser tirada em inspeção em campo a serviço do Inema.
+            </p>
+            <h4>Premiação final do concurso</h4>
+            <p>
+                As 05 (cinco) primeiras fotografia que for mais votada nas redes sociais (Facebook e Instagram) do Inema, receberá como prêmio.
+            </p>
+        </div>
+
+        <div class="regras" id="regras">
+            <h3 class="subtitulo">Regras</h3>
+            <p>
+                Todas as fotos que retrate da temática água (tais como situação de secas ou excedentes hídricos, as belezas e os desafios de se trabalhar com os recursos hídricos etc.) serão bem vindas.
+            </p>
+            <ul>
+                <li>As fotos devem ser originais e sem alterações.</li>
+                <li>As fotos devem expor os ambientes visitados em inspeções técnicas realizadas durante inspeções pelo INEMA.</li>
+                <li>Fotografias que incluam pessoas serão desclassificadas.</li>
+                <li>As fotos devem ser enviadas com um formulário de inscrição preenchido.</li>
+                <li>As fotografias do concurso se tornarão publicas.</li>
+                <li>O fotógrafo da foto que receber mais votos ganhará um prêmio simbólico.</li>
+                <li>Cada pessoa só poderá cadastrar uma única foto.</li>
+                <li>A votação será por meio das redes sociais do INEMA.</li>
+                <li>As vagas serão limitadas apenas 50.</li>
+            </ul>
+            <p>A foto vencedora irá ganhar um kit de brinde (Agenda, caneta, livro).</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <img src="img/logo-inema.png" alt="logotipo inema">
+    </footer>
+
+    <section class="modal-container" data-modal="container">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Cadastro</h3>
+                <button class="fechar" data-modal="fechar">X</button>
+            </div>
+            <form class="form" id="myForm">
+                <div class="form-block-1">
+                    <div>
+                        <label for="">Nome do colaborador</label>
+                        <input type="text" placeholder="Insira seu nome">
+                    </div>
+                    <div>
+                        <label for="">Nome da foto</label>
+                        <input type="text" placeholder="Insira o nome da foto">
+                    </div>
+                </div>
+                <div class="form-block-2">
+                    <div>
+                        <label for="">Local da foto</label>
+                        <input type="text" placeholder="Insira o local da foto">
+                    </div>
+                    <div>
+                        <label for="">Data de registro</label>
+                        <input type="text" placeholder="MM/DD/YYYY">
+                    </div>
+                </div>
+                <div  class="form-block-3">
+                    <label for="">Anexar Foto</label>
+                    <input type="file" id="inpFile" >
+                </div>
+                    <div class="form-block-3">
+                        <label for="">Termos</label>
+                        <div class="termos">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit recusandae consequatur quas in esse pariatur aliquid minima culpa aspernatur, repellat consequuntur, impedit, quod labore numquam a maiores ipsa quos delectus autem facere praesentium nam repudiandae nobis. Reiciendis fugit, aspernatur mollitia commodi fuga, illum, voluptate ipsa magnam quis praesentium earum? Iure quibusdam consequatur inventore accusantium sunt vel voluptate, architecto, beatae nesciunt, quisquam porro voluptates laborum possimus magni fuga ipsum mollitia dolores labore. Fuga aut placeat ullam nostrum, necessitatibus non dignissimos veritatis fugit! Illo, mollitia laudantium! Recusandae exercitationem fugit nisi cum rem, suscipit accusantium inventore obcaecati, ex nulla incidunt, autem officia facere alias. Temporibus atque minus obcaecati rem suscipit doloribus sequi esse hic asperiores voluptatem officia, nulla necessitatibus distinctio ea eius dolorum porro dicta error non aliquid facilis ad accusamus commodi? Nihil similique culpa, explicabo autem aspernatur consectetur. Sapiente, delectus suscipit unde, molestiae adipisci dignissimos et, sint repellendus molestias maiores quidem quis? Obcaecati nemo ea omnis velit vel nihil debitis! Ipsum nesciunt sunt officiis laborum in aut iure voluptatibus molestiae id! Eos tempore debitis ab ex. Assumenda iure dolorum sed quaerat, aspernatur ducimus deleniti quia ea odit consequatur enim doloremque optio illum a quo, eligendi natus tempore nemo dignissimos incidunt, recusandae ipsam!</p>
+                        </div>
+                    </div>
+                    <div class="form-block-4">
+                        <label>
+                            <input type="checkbox" name="checkbox" value="value">Eu li e concordo com os termos
+                        </label>   
+                    </div> 
+            </form>
+            <div class="modal-btn">
+                <button type="submit" class="btn-primary">Enviar</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
